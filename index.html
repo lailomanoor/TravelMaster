@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <title>TravelMaster</title>
+
+    <!--CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flip-card.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="about.css">
+
+
+</head>
+
+<body>
+
+    <!-- Front page -->
+    <header>
+        <div class="bgimg">
+            <nav>
+                <div class="logo" id="logo">
+                    <span>TravelMaster
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="txt" id="home">
+                <h1>Travel the world on a budget</h1>
+
+            </div>
+            <button class="button1" role="button">Learn More</button>
+        </div>
+    </header>
+
+    <br><br><br>
+
+    <!--About Us-->
+    <section id="about" style="height: 100vh;" class="about-section">
+        <div class="about-text">
+            <h2 style="padding-top: 90px;">ABOUT US</h2>
+            <br><br>
+            <p>Travel Master is your personal travelling companion.. We specialize in crafting personalized
+                journeys, offering a
+                seamless blend of adventure, luxury, and cultural immersion.
+                Travel
+                Master's commitment to excellence guarantees that each adventure is a masterpiece in itself.</p>
+        </div>
+
+        <div class="about-image">
+            <img src="https://images.pexels.com/photos/5913193/pexels-photo-5913193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="About Us Image">
+        </div>
+    </section>
+
+
+    <!-- Flip Cards-->
+    <section id="services" style="height: 100vh;">
+        <h2 style="padding-top: 90px;">SERVICES</h2>
+
+        <div class="flex-container">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://images.pexels.com/photos/8624950/pexels-photo-8624950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="image">
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="inner-text">
+                            <h3>Get to know about the best packages</h3>
+                            <button href="#" class="button1">Browse Packages</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://images.pexels.com/photos/9420386/pexels-photo-9420386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="image">
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="inner-text">
+                            <h3>Stay in hotels with the best facilities</h3>
+                            <button href="#" class="button1">Browse Hotels</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://images.pexels.com/photos/14406458/pexels-photo-14406458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="image">
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="inner-text">
+                            <h3>Enjoy to the fullest with activities</h3>
+                            <button href="#" class="button1">Browse Activities</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Us -->
+    <footer>
+        <section >
+            <div id="contact" class="newsletter">
+                <div class="txt">
+                    <h1>Subscribe to our newsletter</h1>
+                </div>
+
+                <div class="form-container">
+                    <form action="noaction.php">
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="" placeholder="Enter your Email ID">
+                        </div>
+
+                </div>
+                <button class="button1">Submit</button>
+                </form>
+
+                <br><br><br>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> travelmaster@example.com</p>
+                    <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                    <p><strong>Address:</strong> 123 XYZ Avenue, ABC City</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>

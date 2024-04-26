@@ -1,0 +1,18 @@
+.about-section {
+  display: flex;
+}
+
+.about-text {
+  flex: 1; /* Expand to fill available space */
+  padding: 100px; /* Add spacing between text and image */
+}
+
+.about-image {
+  flex: 1; /* Expand to fill available space */
+  padding: 0px;
+}
+
+.about-image img {
+  max-width: 70%;
+  height: auto;
+}
